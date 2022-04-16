@@ -8,7 +8,6 @@ Output : 5
 """
 
 def profit_max(arr):
-  # code goes here
   sell = 0
   max_profit = 0
 
@@ -25,6 +24,6 @@ def profit_max(arr):
   arr = max_profit
   return arr
 
-# keep this function call here
+
 arr = [10,12,4,5,9]
 print ArrayChallenge(profit_max(arr))
